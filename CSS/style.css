@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+
+
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto ;
+    background-color: #e2eadc;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    overflow: auto;
+
+}
+/* left starts  */
+
+.left{
+    width: 40%;
+    /* background-color: lightgoldenrodyellow; */
+    float: left;
+
+}
+
+.left .mid{
+    width: 90%;
+    font-weight: bold;
+    padding: 0px 15%;
+}
+
+.left .mid .lb1 img{
+    display: block;
+    margin: 0px auto 10px auto;
+    width: 8rem;
+    height: 8rem;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.left .mid .lb1 ul{
+    margin: 3rem auto;
+    list-style: none;
+}
+.left .mid .lb1 ul li{
+    margin-top: 2rem;
+}
+.lb2{
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+}
+.lb2 ul {
+    list-style: none;
+}
+.lb2 ul li {
+    margin-top: 2rem;
+}
+.icon {
+font-size: 1.2rem;
+margin-right: 0.5rem;
+}
+.icon a {
+text-decoration:none;
+color: purple;
+font-size: 2rem;
+
+}
+
+
+/* right start */
+
+.right{
+    width: 60%;
+    background-color:white;
+    float: left;
+    box-shadow: 0.5px 0.5px 10px 2px #e2eadc;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 1rem ;
+
+}
+ .sp1{
+    font-size: 1.6rem;
+
+}
+
+.right .rb1 p{
+font-size: 1rem;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Phudu', cursive;
+    
+
+}
+
+.sp2{
+    display: block;
+    margin-top:1rem;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Phudu', cursive;
+
+}
+.rb1 h3,.rb2 h3,.rb3 h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.rb2 h4{
+    float: left;
+}
+
+.rb2div1{
+float: right;
+color: gray;
+
+}
+.rb2div2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    color: grey;
+}
+
+.rb2 ul{
+ padding: 1rem;
+}
+
+
+/* padding problem  */
